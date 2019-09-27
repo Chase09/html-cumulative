@@ -1,0 +1,108 @@
+﻿<!--
+    Name: Chase
+    Course: Software Development
+    Teacher: Mr. Hardman
+    School: Pembina Trails Early College
+    Date Last Modified:
+-->
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTMLproject</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet2.css">
+</head>
+<body>
+    <center><h1><u><b>First html project</b></u></h1></center>
+    <!-- This is the header for my website-->
+    <center><p><i>In my site i will have a table explaining my favourite courses, my fvaourite tv shows, and my hobbies. </i></p></center>
+    <center><p><i>Then I will show pictures of some of the answers I gave. Then you will fill out some information and the date that you </i></p></center>
+    <center><p><i>are on my website. At the bottom of the page there is a link to another website which has my iframes on it. </i></p></center>
+    <!-- This is the code that displays the text of what is in my website-->
+    <br />
+    <center>
+        <table width="800">
+            <tr>
+                <th>My Favourite Courses</th>
+                <th>My Hobbies</th>
+                <th>T.V. Shows I like</th>
+            </tr>
+            <tr>
+                <td>Software Development</td>
+                <td>Sports</td>
+                <td>Stranger Things</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>Video Games</td>
+                <td>How I Met Your Mother</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Youtube</td>
+                <td>The Office</td>
+            </tr>
+        </table>
+    </center>
+    <!-- This creates the table of my favourite courses, favourite tv shows and hobbies-->
+    <br />
+    <center>
+        <div>
+            <img width="200" height="160" src="https://i.ytimg.com/vi/Kp2bYWRQylk/maxresdefault.jpg" alt="This is a picture of math" />
+            <img width="160" height="160" src="https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png" alt="This is the youtube logo" />
+            <img width="320" height="160" src="https://vignette.wikia.nocookie.net/strangerthings8338/images/f/fe/Stranger_Things_logo_%28brightened%2C_version_two%29.png/revision/latest?cb=20170325150005" alt="This is the logo for stranger things" />
+        </div>
+    </center>
+    <!-- This code is what will display the images on my website-->
+    <br />
+        <center>
+            <p>Enter your information</p>
+                <form>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" maxlength="30" />
+                    Last Name:
+                    <input type="text" name="lastname" id="lastname" maxlength="30" />
+
+
+                    <!-- This is what will create the first name and last name boxes that the viewers can type in-->
+                    <br />
+
+
+                    <label for="email">
+                        Enter your email address:
+                        <input type="email" name="email" id="email" />
+                    </label>
+                    <label for="password">
+                        Enter your password:
+                        <input type="password" name="password" id="password" />
+                    </label>
+
+                    <!-- This is what will create the email and password boxes for the veiwers to type in-->
+                    <br />
+
+
+                    <label><input type="radio" name="save" value="email and password" checked />Save Email and Password</label>
+                    <label><input type="radio" name="save" value="email" />Save Email</label>
+                    <label><input type="radio" name="save" value="password" />Save Password</label>
+                    <label><input type="radio" name="save" value="none" />Save None</label>
+
+                    <!-- This is what gives you the radio button options which are save email and password, save email,
+                    save password, save none-->
+
+                    <br />
+
+
+                    Enter the date:
+                    <input type="date" name="date" id="date" />
+                    <!-- This is what will display the date box that you click to choose what the date is-->
+                    <br />
+                    <button class="button">Submit</button>
+
+                <br />
+            </form>
+        </center>
+    <a href="https://chase09.github.io/html-components/iframes.html">Iframes</a>
+    <!-- This is a link to my other website that only has iframes on it-->
+</body>
+</html>
